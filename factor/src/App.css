@@ -1,0 +1,162 @@
+body {
+  color: rgb(255, 255, 255) !important;
+  font-family:'Vazir', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue' !important;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.471;
+  background-color: #2A3F54 !important;
+  direction: rtl;
+}
+
+.main {
+  transition:margin-right .5s;
+  padding: 0px !important;
+}
+
+.user-profile img
+{
+  font-size:0.9rem;;
+  height: 29px;
+  width: 29px;
+  margin-left: 10px;
+}
+
+.offcanvas
+{
+  background-color: #2A3F54 !important;
+  width: 230px !important;
+  color: #ECF0F1 !important;
+}
+
+.offcanvas-header
+{
+  padding: 0.8rem 1rem;
+  background-color: #34495e !important;
+}
+.offcanvas-body
+{
+  padding: 0px !important;
+}
+
+/* menu css */
+.menu_section>ul {
+  margin-top: 10px;
+}
+.nav.side-menu>li {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  border-bottom: 1px solid #3d4957;
+}
+
+/* menu item css*/
+.menu_section span.fa {
+  float: left;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 10px;
+  min-width: inherit;
+  color: #c4cfda;
+}
+.menu_section .fa {
+  width: 26px;
+  opacity: .99;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+.menu_section ul li
+{
+  list-style: none;
+}
+.nav.side-menu>li>a {
+  color: #e7e7e7;
+  font-weight: 500;
+  text-align: right;
+  z-index: 2;
+}
+.nav>li>a {
+  position: realtive;
+  display: block;
+  padding: 13px 15px 12px;
+}
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 13px 15px 12px;
+}
+.nav-link>i {
+  display: inline-block;
+}
+.nav.side-menu>li>p {
+  color: #e7e7e7;
+  font-weight: 500;
+  text-align: right;
+  z-index: 2;
+}
+.menu_section ul li.active {
+  border-left: 5px solid #1abb9c;
+}
+.nav.side-menu>li.active>a {
+  text-shadow: rgba(0, 0, 0, 0.25) 0 -1px 0;
+  background: linear-gradient(#34495e, #34495e), #34495e;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+}
+
+/* Submneu Css */
+.child_menu ul>li>a {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.75) !important;
+  font-size: 12px;
+  padding: 9px;
+  text-align: right;
+}
+
+.child_menu ul>li:before
+{
+  background: #425668;
+  bottom: auto;
+  content: "";
+  height: 8px;
+  right: 23px;
+  margin-top: 15px;
+  position: absolute;
+  left: auto;
+  width: 8px;
+  z-index: 1;
+  border-radius: 50%;
+}
+.child_menu ul>li:after {
+  border-right: 1px solid #425668;
+  bottom: 0;
+  content: "";
+  right: 27px;
+  position: absolute;
+  top: 45px;
+  z-index: 0;
+}
+
+/* ag grid css */
+.agRowStyle,.agHeaderStyle
+{
+    font-family: "Vazir";
+}
+.ag-theme-alpine .ag-paging-panel,.ag-header
+{
+  font-family: "Vazir" !important;
+}
+
+.Toastify__toast-body {
+  direction:rtl;
+  font-family: "Vazir" !important;
+}
+
+.page
+{
+    direction: rtl;
+    color: rgb(17, 16, 16);
+}
